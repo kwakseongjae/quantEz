@@ -1,0 +1,31 @@
+#gnb {
+  padding: 50px 50px 0 0;
+  float: right;
+  justify-content: right;
+}
+
+.gnb-depth-1 {
+  position: relative;
+  float: right;
+  width: 165px;
+}
+
+.gb1 {
+  width: 170px;
+}
+
+.gnb-depth-1-btn {
+  display: block;
+  line-height: 70px;
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #333;
+  cursor: pointer;
+  text-align: right;
+  text-decoration: none;
+}
+
+.gnb-depth-1-btn:hover {
+  color: #5400cf;
+}

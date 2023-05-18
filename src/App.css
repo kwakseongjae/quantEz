@@ -85,3 +85,86 @@ table.FStable .special2 {
   text-align: right !important;
   padding-right: 5px;
 }
+
+#header {
+  height : 160px;
+  font-family: 'Noto Sans KR', sans-serif;  
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f8f9fb;
+}
+
+#container {
+  height: 100%;
+  background-color: blue;
+}
+
+#footer {
+  height: 200px;
+  background-color: red;
+}
+
+#banner {
+  height: 300px;
+  background-color: yellow;
+}
+
+#header-top {
+  height: 40px;
+  width: 100%;
+  background-color: #f8f9fb;
+} 
+
+#header-top-right {
+  position: absolute;
+  width: 435spx;
+  height: 40px;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  padding: 8px;
+}
+
+ul {
+  display: block;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+#header-top-right li {
+  display: inline;
+  float: left;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+  color: #666;
+  line-height: 40px;
+}
+
+#header-top-right li.in-select select {
+  padding: 4px 6px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #888;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+}
+
+#header-con {
+  height: 120px;
+  background-color: #f8f9fb;  
+}
+
+.header-logo {
+  float: left;
+  width: 50px;
+  height: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
