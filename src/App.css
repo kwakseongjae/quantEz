@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+header,
+section,
+aside,
+ariticle,
+footer {
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  background-color: white;
+  width: 50%;
+  height: 2500px;
+  float: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.sidebar {
+  float: left;
+  width: 50%;
+}
+.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+table.FStable {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+
+  margin: 20px 10px;
+}
+table.FStable thead {
+  background: #7314FF;
+}
+table.FStable thead th {
+  width: 20%;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+}
+table.FStable tbody th {
+  width: 20%;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+table.FStable td {
+  width: 20%;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+table.FStable .special {
+    background: #F7F1FF;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  table.FStable .special2 {
+    background: #f5f5f5;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Align */
+.l {
+  text-align: left !important;
+  padding-left: 5px;
+}
+
+.c {
+  text-align: center !important;
+}
+
+.r {
+  text-align: right !important;
+  padding-right: 5px;
 }
