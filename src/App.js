@@ -16,25 +16,25 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/aboutus" element={<Aboutus />} />
-          <Route path="/tutorial" element={<Tutorial />} />
-          <Route path="/port" element={<Port />} />
-          <Route
-            path="/tutorial/create-port-tutorial"
-            element={<CreatePortTutorial />}
-          />
-          <Route path="/port/create-port" element={<CreatePort />} />
-          <Route path="/financeSheetlist" element={<FinanceSheetList />} />
-          <Route
-            path="/financeSheetlist/financeSheet"
-            element={<FinanceSheet />}
-          />
-        </Routes>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/aboutus" element={<Aboutus />} />
+            <Route path="/tutorial" element={<Tutorial />} />
+            <Route path="/port" element={<Port />} />
+            <Route
+              path="/tutorial/create-port-tutorial"
+              element={<CreatePortTutorial />}
+            />
+            <Route path="/port/create-port" element={<CreatePort />} />
+            <Route path="/financeSheetlist" element={<FinanceSheetList />} />
+            <Route
+              path="/financeSheetlist/financeSheet"
+              element={<FinanceSheet />}
+            />
+          </Routes>
+          <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

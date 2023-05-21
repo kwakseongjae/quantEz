@@ -3,7 +3,7 @@ import { Sheets } from "../components/Sheets";
 
 export const FinanceSheet = () => {
   return (
-    <div>
+    <div className="container">
       <ariticle>
         <section>
           <div className="content">

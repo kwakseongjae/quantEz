@@ -11,7 +11,7 @@ content {
 .content {
   background-color: white;
   width: 100%;
-  height: 2500px;
+  height: 2300px;
   float: right;
 }
 
@@ -141,7 +141,7 @@ div {
 
 #container {
   margin: 0 auto;
-  min-height: 100%;
+  height: 100%;
   font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;
 }
 #header-top {
@@ -345,7 +345,7 @@ a:hover {
   background-color: #fff;
   color: #fff;
   width: 100%;
-  position: absolute;
+  position: flex;
   margin: 0 auto;
   background: #5400cf url(./img/footer.svg) no-repeat center bottom;
   background-size: cover;
