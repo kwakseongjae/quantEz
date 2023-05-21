@@ -1,5 +1,8 @@
 #gnb {
-  padding: 50px 50px 0 0;
+  height: 100px;
+  position: relative;
+  z-index: 1;
+  padding: 30px 60px 0 0;
   float: right;
   justify-content: right;
 }
@@ -17,15 +20,33 @@
 .gnb-depth-1-btn {
   display: block;
   line-height: 70px;
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 600;
   letter-spacing: -0.025em;
   color: #333;
   cursor: pointer;
-  text-align: right;
+  text-align: center;
   text-decoration: none;
+}
+
+.gnb-depth-1-btn-dropdownmenu {
+  display: none;
+  width: 100%;
 }
 
 .gnb-depth-1-btn:hover {
   color: #5400cf;
+}
+
+.gnb-depth-1-btn:hover .gnb-depth-1-btn-dropdownmenu {
+  display: block;
+  line-height: 70px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f8f9fb;
 }

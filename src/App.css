@@ -86,36 +86,8 @@ table.FStable .special2 {
   padding-right: 5px;
 }
 
-#header {
-  height : 160px;
-  font-family: 'Noto Sans KR', sans-serif;  
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: #f8f9fb;
-}
-
-#container {
-  height: 100%;
-  background-color: blue;
-}
-
-#footer {
-  height: 200px;
-  background-color: red;
-}
-
-#banner {
-  height: 300px;
-  background-color: yellow;
-}
-
-#header-top {
-  height: 40px;
-  width: 100%;
-  background-color: #f8f9fb;
-} 
-
 #header-top-right {
+  z-index: 3;
   position: absolute;
   width: 435spx;
   height: 40px;
@@ -123,6 +95,59 @@ table.FStable .special2 {
   top: 0;
   font-size: 16px;
   padding: 8px;
+}
+
+/* 0519 화면이 줄어드는 이슈 수정 완료  */
+@media screen and (max-width: 1240px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    flex-direction: column;
+    width: 100%;
+    min-width: 1200px;
+    min-height: 100%;
+    overflow-x: auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  display: block;
+}
+
+#header {
+  height: 160px;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f8f9fb;
+}
+
+#container {
+  margin: 0 auto;
+  min-height: 100%;
+  font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;
+}
+#header-top {
+  height: 40px;
+  width: 100%;
+  background-color: #f8f9fb;
 }
 
 ul {
@@ -158,7 +183,7 @@ option {
 
 #header-con {
   height: 120px;
-  background-color: #f8f9fb;  
+  background-color: #f8f9fb;
 }
 
 .header-logo {
@@ -167,4 +192,218 @@ option {
   height: 100%;
   padding-left: 20px;
   padding-top: 10px;
+}
+
+/* main banner 1 */
+#main-banner-1 {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f8f9fb;
+}
+.main-banner-1-img {
+  height: 400px;
+  background: url("./img/main_banner_1.svg") right bottom no-repeat;
+  width: 100%;
+  display: inline-block;
+  padding-right: 50px;
+}
+.main-banner-1-left {
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+#main-banner-1 .p-1,
+#main-banner-1 .p-2,
+#main-banner-1 .p-3 {
+  overflow: hidden;
+}
+
+#main-banner-1 .p-1-action,
+#main-banner-1 .p-2-action,
+#main-banner-1 .p-3-action {
+  display: block;
+  transition: all 1s;
+}
+
+#main-banner-1 .p-1,
+#main-banner-2 .p-1 {
+  height: 53px;
+  font-size: 31px;
+  color: #374054;
+  letter-spacing: -0.025em;
+}
+
+#main-banner-1 .p-1-action {
+  transition-delay: 0.2s;
+  padding-top: 0;
+}
+.p-1-style {
+  vertical-align: middle !important ;
+}
+#main-banner-1 .p-2,
+#main-banner-2 .p-2 {
+  height: 88px;
+  font-size: 48px;
+  color: #374054;
+  font-weight: 900;
+  line-height: 110%;
+}
+#main-banner-1 main-banner-1-img .p-2-action {
+  transition-delay: 0.4s;
+}
+#main-banner-1 .p-3,
+#main-banner-2 .p-3 {
+  height: 120px;
+  font-size: 16px;
+  color: #909dab;
+  letter-spacing: -0.025em;
+  transition-delay: 0.6s;
+}
+#main-banner-1 .main-banner-1-img .p-3-action {
+  transition-delay: 0.6s;
+}
+#main-banner-1 .main-button-1 {
+  margin-right: 18px;
+}
+/* main banner 2 */
+#main-banner-2 {
+  height: 400px;
+  padding-right: 60px;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.main-banner-2-img {
+  height: 400px;
+  background: url("./img/main_banner_2.svg") left bottom no-repeat;
+  width: 100%;
+  display: inline-block;
+  padding-left: 50px;
+}
+.main-banner-2-right {
+  width: 50%;
+  float: right;
+  padding-top: 40px;
+  padding-right: 60px;
+}
+
+/* btn */
+.main-button-1,
+.main-button-2,
+.main-button-3 {
+  display: inline-block;
+  height: 43px;
+  line-height: 43px;
+  min-width: 160px;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5400cf;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.main-button-1,
+.main-button-2.on,
+.main-button-1:hover,
+.main-button-3 {
+  color: #fff;
+  background: #5400cf;
+}
+.main-button-2,
+.main-button-1.on,
+.main-button-2:hover,
+.main-button-3:hover {
+  color: #5400cf;
+  background: transparent;
+}
+.button-box {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+/* footer */
+#footer {
+  height: 200px;
+  overflow: hidden;
+  clear: both;
+  background-color: #fff;
+  color: #fff;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  background: #5400cf url(./img/footer.svg) no-repeat center bottom;
+  background-size: cover;
+}
+#footer a {
+  color: #fff;
+}
+.footer-in {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-left,
+.footer-right {
+  padding-top: 28px;
+}
+.footer-left {
+  float: left;
+  width: 35%;
+}
+#footer .footer-left .footer-left-li-1 {
+  margin-bottom: 55px;
+}
+.footer-link-kakaotalk {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 110%;
+  cursor: pointer;
+}
+.footer-link-kakaotalk span {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 110%;
+}
+#footer .footer-left .footer-left-li-2 {
+  margin-bottom: 3px;
+}
+.footer-link-email {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-socialLink a,
+.footer-socialLink span {
+  display: inline-block;
+  padding: 5px 0;
+  width: 33px;
+  cursor: pointer;
+}
+.footer-right {
+  float: right;
+  position: relative;
+  width: 64%;
+}
+.footer-right .copy-1 {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.025em;
 }
