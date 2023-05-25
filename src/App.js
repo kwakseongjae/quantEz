@@ -41,4 +41,3 @@ function App() {
 
 export default App;
 
-// ul 클릭하면 view 상태를 반대로

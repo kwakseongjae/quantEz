@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { ReactComponent as Mainlogo } from "../img/Mainlogo.svg";
-import { Dropdown } from "./Dropdown";
 import "./Navbar.css";
 export const Navbar = () => {
   const [view, setView] = useState(false);
@@ -71,13 +70,6 @@ export const Navbar = () => {
                 </li>
               </li>
             </li>
-
-            {/* <li class="gnb-depth-1">
-            <Link class="gnb-depth-1-btn" to="/port">
-              {" "}
-              포트만들기
-            </Link>
-          </li> */}
             <li class="gnb-depth-1">
               <Link class="gnb-depth-1-btn" to="/aboutus">
                 퀀티지란?

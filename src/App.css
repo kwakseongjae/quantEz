@@ -3,7 +3,30 @@ section,
 aside,
 ariticle,
 footer,
-sheets,
+sheets,white-logo.png
+tabs-image-05.jpg
+tabs-image-04.jpg
+tabs-image-03.jpg
+tabs-image-02.jpg
+tabs-image-01.jpg
+search-icon-05.png
+search-icon-04.png
+search-icon-03.png
+search-icon-02.png
+search-icon-01.png
+listing-icon-heading.png
+listing-icon-03.png
+listing-icon-02.png
+listing-icon-01.png
+listing-06.jpg
+listing-05.jpg
+listing-04.jpg
+listing-03.jpg
+listing-02.jpg
+listing-01.jpg
+heading-bg.jpg
+black-logo.png
+banner-bg.jpg
 content {
   display: block;
 }
@@ -393,8 +416,7 @@ a:hover {
 .footer-socialLink a,
 .footer-socialLink span {
   display: inline-block;
-  padding: 5px 0;
-  width: 33px;
+  padding: 0px 27px 5px 0px ;
   cursor: pointer;
 }
 .footer-right {
@@ -406,4 +428,5 @@ a:hover {
   font-size: 14px;
   line-height: 140%;
   letter-spacing: -0.025em;
+  color: white;
 }

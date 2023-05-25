@@ -1,8 +1,6 @@
-import { Link } from "react-router-dom";
+import { FinanceSheetCat } from "../components/FinanceSheetCat";
 export const FinanceSheetList = () => {
   return (
-    <div className="financesheetlist">
-      <Link to="/financesheetlist/financesheet"> 재무제표 학습하기 </Link>
-    </div>
+      <FinanceSheetCat />
   );
 };
