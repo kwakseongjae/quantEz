@@ -10,10 +10,6 @@
 .gnb-depth-1 {
   position: relative;
   float: right;
-  width: 165px;
-}
-
-.gb1 {
   width: 170px;
 }
 
@@ -29,6 +25,22 @@
   text-decoration: none;
 }
 
+.gnb-depth-2 {
+  display: none;
+  position: absolute;
+  font-size: 19px;
+  letter-spacing: -0.025em;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 999;
+  transition: 0.8s;
+}
+
 .gnb-depth-1-btn-dropdownmenu {
   display: none;
   width: 100%;
@@ -38,15 +50,6 @@
   color: #5400cf;
 }
 
-.gnb-depth-1-btn:hover .gnb-depth-1-btn-dropdownmenu {
+.gnb-depth-1-btn:hover .gnb-depth-2 {
   display: block;
-  line-height: 70px;
-  font-size: 22px;
-  font-weight: 600;
-  letter-spacing: -0.025em;
-  color: #333;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  background-color: #f8f9fb;
 }

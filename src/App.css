@@ -3,35 +3,37 @@ section,
 aside,
 ariticle,
 footer,
-sheets,white-logo.png
-tabs-image-05.jpg
-tabs-image-04.jpg
-tabs-image-03.jpg
-tabs-image-02.jpg
-tabs-image-01.jpg
-search-icon-05.png
-search-icon-04.png
-search-icon-03.png
-search-icon-02.png
-search-icon-01.png
-listing-icon-heading.png
-listing-icon-03.png
-listing-icon-02.png
-listing-icon-01.png
-listing-06.jpg
-listing-05.jpg
-listing-04.jpg
-listing-03.jpg
-listing-02.jpg
-listing-01.jpg
-heading-bg.jpg
-black-logo.png
-banner-bg.jpg
-content {
+sheets,
+white-logo.png
+  tabs-image-05.jpg
+  tabs-image-04.jpg
+  tabs-image-03.jpg
+  tabs-image-02.jpg
+  tabs-image-01.jpg
+  search-icon-05.png
+  search-icon-04.png
+  search-icon-03.png
+  search-icon-02.png
+  search-icon-01.png
+  listing-icon-heading.png
+  listing-icon-03.png
+  listing-icon-02.png
+  listing-icon-01.png
+  listing-06.jpg
+  listing-05.jpg
+  listing-04.jpg
+  listing-03.jpg
+  listing-02.jpg
+  listing-01.jpg
+  heading-bg.jpg
+  black-logo.png
+  banner-bg.jpg
+  content {
   display: block;
 }
 
 .content {
+  margin-top: 50px;
   background-color: white;
   width: 100%;
   height: 2300px;
@@ -372,6 +374,8 @@ a:hover {
   margin: 0 auto;
   background: #5400cf url(./img/footer.svg) no-repeat center bottom;
   background-size: cover;
+  font-family: "Noto Sans KR", "Nanum Gothic", "나눔고딕", "Noto Sans KR",
+    sans-serif;
 }
 #footer a {
   color: #fff;
@@ -416,7 +420,7 @@ a:hover {
 .footer-socialLink a,
 .footer-socialLink span {
   display: inline-block;
-  padding: 0px 27px 5px 0px ;
+  padding: 0px 27px 5px 0px;
   cursor: pointer;
 }
 .footer-right {

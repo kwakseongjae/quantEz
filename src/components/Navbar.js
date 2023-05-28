@@ -58,15 +58,17 @@ export const Navbar = () => {
               {" "}
               <li class="gnb-depth-1-btn">
                 백테스트
-                <li>
-                  <Link class="gnb-depth-1-btn-dropdownmenu" to="/tutorial">
-                    튜토리얼
-                  </Link>
-                </li>
-                <li>
-                  <Link class="gnb-depth-1-btn-dropdownmenu" to="/port">
-                    포트 만들기
-                  </Link>
+                <li class="gnb-depth-2">
+                  <li>
+                    <Link class="gnb-depth-2-btn" to="/tutorial">
+                      튜토리얼
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="gnb-depth-2-btn" to="/port">
+                      포트 만들기
+                    </Link>
+                  </li>
                 </li>
               </li>
             </li>

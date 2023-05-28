@@ -1,5 +1,7 @@
 import "./FinanceSheetCat.css";
+import "./bootstrap.min.css";
 import "./animated.css";
+import "./owl.css";
 import searchIcon1 from "../img1/search-icon-01.png";
 import searchIcon2 from "../img1/search-icon-02.png";
 import searchIcon3 from "../img1/search-icon-03.png";
@@ -10,6 +12,7 @@ import tabImg2 from "../img1/tabs-image-02.jpg";
 import tabImg3 from "../img1/tabs-image-03.jpg";
 import tabImg4 from "../img1/tabs-image-04.jpg";
 import tabImg5 from "../img1/tabs-image-05.jpg";
+import { Link } from "react-router-dom";
 
 export const FinanceSheetCat = () => {
   return (
@@ -78,21 +81,24 @@ export const FinanceSheetCat = () => {
                             <div class="row">
                               <div class="col-lg-5 align-self-center">
                                 <div class="left-text">
-                                  <h4>
-                                    반드시 알아야 할 재무제표의 기본 : 구조와
-                                    용어 이해하기
+                                  <h4 class="category-head">
+                                    반드시 알아야 할 재무제표의 기본 :<br />{" "}
+                                    구조와 용어 이해하기
                                   </h4>
                                   <p>
                                     1. 재무회계에서 가장 필수적인 열두 가지
                                     기본원칙을 배운다.
                                     <br />
-                                    2. 재무제표를 구성하는 3가지 큰 틀 :
+                                    2. 재무제표를 구성하는 3가지 큰 틀 : <br />
                                     대차대조표, 손익계산서, 현금흐름표
                                   </p>
                                   <div class="main-white-button">
-                                    <a href="#">
+                                    <Link
+                                      class="FSstart"
+                                      to="/financeSheetlist/financeSheet"
+                                    >
                                       <i class="fa fa-eye"></i>학습 시작하기
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>

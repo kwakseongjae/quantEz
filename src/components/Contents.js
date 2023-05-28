@@ -1,3 +1,4 @@
+import { AnswerSubmit } from "../components/AnswerSubmit";
 export const Contents = () => {
   return (
     <div className="contents">
@@ -23,6 +24,7 @@ export const Contents = () => {
         대차대조표의 균형이 무너지기 때문이다. 따라서 대차대조표의 자금 항목에
         150만 달러를 더한다.
       </p>
+      <AnswerSubmit />
     </div>
   );
 };
