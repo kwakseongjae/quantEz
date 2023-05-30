@@ -1,9 +1,5 @@
-import "./BackTest.css";
+// import "./BackTest.css";
 
 export const BackTest = () => {
-  return (
-    <>
-      
-    </>
-  );
+  return <div></div>;
 };
