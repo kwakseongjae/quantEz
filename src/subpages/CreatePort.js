@@ -7,7 +7,7 @@ export const CreatePort = () => {
     return (
     <>
     <div
-      className={cx("pop", "pop-conditional", "pop-style-1")}
+      className={cx('pop', 'pop-conditional', 'pop-style-1')}
       id={style.divPopCond}
       style={{ display: "none" }}
     >
@@ -620,7 +620,7 @@ export const CreatePort = () => {
           <div className={cx("section_newport")}>
             {/* 포트 제목, 포트 설명 */}
             <div className={cx("port_subBox", "mt-0")}>
-              <div className={cx("fl box-port-title")}>
+              <div className={cx("fl", "box-port-title")}>
                 <p className={cx("subtitle_16px")}>포트 제목</p>
                 <div>
                   <input
@@ -954,10 +954,10 @@ export const CreatePort = () => {
               <ul>
                 <li>
                   <span className={cx("subtitle_16px", "mr20px")}>유니버스 선택</span>
-                  <button type="button" className={cx("btn_small btn_white")}>
+                  <button type="button" className={cx("btn_small", "btn_white")}>
                     전체선택
                   </button>
-                  <button type="button" className={cx("btn_small btn_white")}>
+                  <button type="button" className={cx("btn_small", "btn_white")}>
                     선택해제
                   </button>
                 </li>
@@ -1048,7 +1048,7 @@ export const CreatePort = () => {
                 <span className={cx("txt_plus", "mr-20")}>매수조건식 선택</span>
                 <button
                   type="button"
-                  className={cx("btn_white btn-m")}
+                  className={cx("btn_white", "btn-m")}
                   style={{ lineHeight: "15px", width: "auto" }}
                 >
                   불러오기
