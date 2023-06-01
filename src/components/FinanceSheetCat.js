@@ -90,9 +90,9 @@ export const FinanceSheetCat = () => {
                                     대차대조표, 손익계산서, 현금흐름표
                                   </p>
                                   <div class="main-white-button">
-                                    <Link
+                                  <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet"
+                                      to="/financeSheetlist/financeSheet-trade0"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -122,9 +122,12 @@ export const FinanceSheetCat = () => {
                                     함께 일할 직원을 고용한다.
                                   </p>
                                   <div class="main-white-button">
-                                    <a href="#">
+                                    <Link
+                                      class="FSstart"
+                                      to="/financeSheetlist/financeSheet-trade1"
+                                    >
                                       <i class="fa fa-eye"></i>학습 시작하기
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -151,9 +154,12 @@ export const FinanceSheetCat = () => {
                                     templates.
                                   </p>
                                   <div class="main-white-button">
-                                    <a href="#">
-                                      <i class="fa fa-eye"></i> More Listing
-                                    </a>
+                                  <Link
+                                      class="FSstart"
+                                      to="/financeSheetlist/financeSheet-trade2"
+                                    >
+                                      <i class="fa fa-eye"></i>학습 시작하기
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -180,9 +186,12 @@ export const FinanceSheetCat = () => {
                                     are from Unsplash.
                                   </p>
                                   <div class="main-white-button">
-                                    <a href="#">
-                                      <i class="fa fa-eye"></i> Discover More
-                                    </a>
+                                  <Link
+                                      class="FSstart"
+                                      to="/financeSheetlist/financeSheet-trade3"
+                                    >
+                                      <i class="fa fa-eye"></i>학습 시작하기
+                                    </Link>
                                   </div>
                                 </div>
                               </div>
@@ -211,12 +220,12 @@ export const FinanceSheetCat = () => {
                                     file on any Free CSS collection websites.
                                   </p>
                                   <div class="main-white-button">
-                                    <a
-                                      rel="nofollow"
-                                      href="https://templatemo.com/contact"
+                                  <Link
+                                      class="FSstart"
+                                      to="/financeSheetlist/financeSheet-trade4"
                                     >
-                                      <i class="fa fa-eye"></i> Read More
-                                    </a>
+                                      <i class="fa fa-eye"></i>학습 시작하기
+                                    </Link>
                                   </div>
                                 </div>
                               </div>

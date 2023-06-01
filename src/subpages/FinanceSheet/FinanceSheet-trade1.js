@@ -1,8 +1,8 @@
-import { Contents } from "../components/Contents";
-import { Sheets } from "../components/Sheets";
+import { Contents } from "../../components/Contents";
+import { Sheets } from "../../components/Sheets";
 
 
-export const FinanceSheet = () => {
+export const FinanceSheet1 = () => {
   return (
     <div className="container">
       <ariticle>
