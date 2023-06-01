@@ -441,3 +441,23 @@ a:hover {
 .contents .p {
   margin-bottom: 1rem;
 }
+
+.content-0 {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.content-0A {
+  margin-bottom: 100px;
+  width: 90%;
+  position: sticky;
+  top: 10px;
+}
+
+.contents {
+  float: right;
+  width: 50%;
+  position: sticky;
+  top: 10px;
+}

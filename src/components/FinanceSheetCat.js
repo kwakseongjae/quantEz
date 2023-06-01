@@ -90,7 +90,7 @@ export const FinanceSheetCat = () => {
                                     대차대조표, 손익계산서, 현금흐름표
                                   </p>
                                   <div class="main-white-button">
-                                  <Link
+                                    <Link
                                       class="FSstart"
                                       to="/financeSheetlist/financeSheet-trade0"
                                     >
@@ -124,7 +124,7 @@ export const FinanceSheetCat = () => {
                                   <div class="main-white-button">
                                     <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade1"
+                                      to="/financeSheetlist/financeSheet-trade0"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -154,9 +154,9 @@ export const FinanceSheetCat = () => {
                                     templates.
                                   </p>
                                   <div class="main-white-button">
-                                  <Link
+                                    <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade2"
+                                      to="/financeSheetlist/financeSheet-trade0"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -186,9 +186,9 @@ export const FinanceSheetCat = () => {
                                     are from Unsplash.
                                   </p>
                                   <div class="main-white-button">
-                                  <Link
+                                    <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade3"
+                                      to="/financeSheetlist/financeSheet-trade0"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -220,9 +220,9 @@ export const FinanceSheetCat = () => {
                                     file on any Free CSS collection websites.
                                   </p>
                                   <div class="main-white-button">
-                                  <Link
+                                    <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade4"
+                                      to="/financeSheetlist/financeSheet-trade0"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>

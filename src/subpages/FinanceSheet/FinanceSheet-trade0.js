@@ -1,9 +1,17 @@
-import { Contents } from "../../components/Contents";
+import { Content0 } from "../../components/Content0/Content0";
 import { Sheets } from "../../components/Sheets";
-
 
 export const FinanceSheet0 = () => {
   return (
-    <h1> FinanceSheet0 서브 페이지입니다.</h1>
+    <div className="container">
+      <ariticle>
+        <section>
+          <div className="content">
+            <Sheets />
+            <Content0 />
+          </div>
+        </section>
+      </ariticle>
+    </div>
   );
 };
