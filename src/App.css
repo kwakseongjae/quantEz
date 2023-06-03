@@ -452,7 +452,10 @@ a:hover {
   justify-content: center;
 }
 
-.content-0A {
+.content-0A,
+.content-0B,
+.content-0C,
+.content-0D {
   margin-bottom: 100px;
   width: 90%;
   position: sticky;
