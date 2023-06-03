@@ -60,9 +60,10 @@ export const Navbar = () => {
                 백테스트
                 <li class="gnb-depth-2">
                   <li>
-                    <Link class="gnb-depth-2-btn" to="/tutorial">
+                    <Link class="gnb-depth-2-btn"> 튜토리얼</Link>
+                    {/* <Link class="gnb-depth-2-btn" to="/tutorial">
                       튜토리얼
-                    </Link>
+                    </Link> */}
                   </li>
                   <li>
                     <Link class="gnb-depth-2-btn" to="/port">

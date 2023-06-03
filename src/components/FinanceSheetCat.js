@@ -119,7 +119,9 @@ export const FinanceSheetCat = () => {
                                     애플시드(Appleseed)주식회사 창업과 운영
                                     <br />
                                     창업 1단계: 회사 창업자금을 투자 유치하고
-                                    함께 일할 직원을 고용한다.
+                                    함께 일할 직원을 고용한다. <br />
+                                    창업 2단계: 생산 개시를 위한 시설 확보 및
+                                    인력을 충원한다.
                                   </p>
                                   <div class="main-white-button">
                                     <Link
@@ -146,12 +148,14 @@ export const FinanceSheetCat = () => {
                             <div class="row">
                               <div class="col-lg-5 align-self-center">
                                 <div class="left-text">
-                                  <h4>Best car rentals for your trips!</h4>
+                                  <h4>거래를 통한 재무제표의 응용</h4>
                                   <p>
-                                    Did you know? You can get the best free HTML
-                                    templates on Too CSS blog. Visit the blog
-                                    pages and explore fresh and latest website
-                                    templates.
+                                    애플시드(Appleseed)주식회사 창업과 운영
+                                    <br />
+                                    창업 3단계: 본격적인 제품의 제조공정에
+                                    들어간다. <br />
+                                    창업 4단계: 고객에게 상품을 효과적으로
+                                    홍보하고 판매한다.
                                   </p>
                                   <div class="main-white-button">
                                     <Link
@@ -178,12 +182,14 @@ export const FinanceSheetCat = () => {
                             <div class="row">
                               <div class="col-lg-5 align-self-center">
                                 <div class="left-text">
-                                  <h4>Shopping List: Images from Unsplash</h4>
+                                  <h4>거래를 통한 재무제표의 응용</h4>
                                   <p>
-                                    Image credits go to Unsplash website that
-                                    provides free stock photos for anyone.
-                                    Images used in this Plot Listing template
-                                    are from Unsplash.
+                                    애플시드(Appleseed)주식회사 창업과 운영
+                                    <br />
+                                    창업 5단계: 운영 3개월 후, 중요한 관리업무를
+                                    실행한다. <br />
+                                    창업 6단계: 성공적인 첫 해를 보내고 기업의
+                                    성장을 평가한다.
                                   </p>
                                   <div class="main-white-button">
                                     <Link
@@ -210,15 +216,8 @@ export const FinanceSheetCat = () => {
                             <div class="row">
                               <div class="col-lg-5 align-self-center">
                                 <div class="left-text">
-                                  <h4>
-                                    Information and Safety Tips for Traveling
-                                  </h4>
-                                  <p>
-                                    You are allowed to use this template for
-                                    your commercial websites. You are NOT
-                                    allowed to redistribute this template ZIP
-                                    file on any Free CSS collection websites.
-                                  </p>
+                                  <h4>성과 창출을 위한 재무제표의 기법</h4>
+                                  <p>재무제표의 세부 구성과 분석</p>
                                   <div class="main-white-button">
                                     <Link
                                       class="FSstart"
