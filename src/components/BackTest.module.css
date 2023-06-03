@@ -604,8 +604,9 @@
     border-radius: 4px;
     -webkit-border-radius: 4px;
   }
-  .btn_extralarge:hover {
+  .btn_extralarge a:hover {
     cursor: pointer;
+    color: #fff;
   }
   .btn-m {
     display: inline-block;
@@ -1917,6 +1918,15 @@
     cursor: pointer;
     margin-top: -1px;
   }
+  .button-sample img {
+    height: 8px;
+    width: 8px;
+    padding-bottom: 3px;
+    padding-left: 2px;
+  }
+  .button-sample:hover {
+    color: #fff;
+  }
   .box-port-sample .button-sample a:link {
     text-decoration: none;
   }
@@ -2014,7 +2024,9 @@
     -webkit-border-radius: 4px;
   }
   .button_refresh img {
-    margin-bottom: -3px;
+    width: 17px;
+    height: 15px;
+    margin: 3px 3px 5px 3px;
   }
   .button_refresh:hover {
     cursor: pointer;
@@ -2035,7 +2047,7 @@
   }
   .box-conditionInput-r {
     float: right;
-    width: 23%;
+    width: 24%;
     text-align: right;
   }
   /* 조건입력 팝업 - 왼쪽 박스 */

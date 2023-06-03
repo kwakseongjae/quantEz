@@ -239,6 +239,7 @@ option {
 }
 .main-banner-1-left {
   width: 50%;
+  height: 100%;
   padding-top: 40px;
   padding-left: 60px;
 }
@@ -273,6 +274,7 @@ option {
 #main-banner-1 .p-2,
 #main-banner-2 .p-2 {
   height: 88px;
+  margin-bottom: 0;
   font-size: 48px;
   color: #374054;
   font-weight: 900;
@@ -284,6 +286,7 @@ option {
 #main-banner-1 .p-3,
 #main-banner-2 .p-3 {
   height: 120px;
+  margin-top: -20px;
   font-size: 16px;
   color: #909dab;
   letter-spacing: -0.025em;
@@ -341,21 +344,22 @@ option {
   transition: color 0.2s, background-color 0.2s;
 }
 .main-button-1,
-.main-button-2.on,
-.main-button-1:hover,
+.main-button-2:hover,
+.main-button-1.on,
 .main-button-3 {
   color: #fff;
   background: #5400cf;
 }
 .main-button-2,
 .main-button-1.on,
-.main-button-2:hover,
+.main-button-1:hover,
 .main-button-3:hover {
   color: #5400cf;
   background: transparent;
 }
 .button-box {
   display: block;
+  padding-bottom: 30px;
 }
 a {
   text-decoration: none;
