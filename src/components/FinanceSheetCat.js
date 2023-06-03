@@ -126,7 +126,7 @@ export const FinanceSheetCat = () => {
                                   <div class="main-white-button">
                                     <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade0"
+                                      to="/financeSheetlist/financeSheet-trade1"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -160,7 +160,7 @@ export const FinanceSheetCat = () => {
                                   <div class="main-white-button">
                                     <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade0"
+                                      to="/financeSheetlist/financeSheet-trade2"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -194,7 +194,7 @@ export const FinanceSheetCat = () => {
                                   <div class="main-white-button">
                                     <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade0"
+                                      to="/financeSheetlist/financeSheet-trade3"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>
@@ -221,7 +221,7 @@ export const FinanceSheetCat = () => {
                                   <div class="main-white-button">
                                     <Link
                                       class="FSstart"
-                                      to="/financeSheetlist/financeSheet-trade0"
+                                      to="/financeSheetlist/financeSheet-trade4"
                                     >
                                       <i class="fa fa-eye"></i>학습 시작하기
                                     </Link>

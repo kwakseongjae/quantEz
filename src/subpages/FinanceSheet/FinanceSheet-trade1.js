@@ -1,4 +1,4 @@
-import { Contents } from "../../components/Contents";
+import { Content1 } from "../../components/Content1/Content1";
 import { Sheets } from "../../components/Sheets";
 
 
@@ -9,7 +9,7 @@ export const FinanceSheet1 = () => {
         <section>
           <div className="content">
             <Sheets />
-            <Contents />
+            <Content1 />
             
           </div>
         </section>
