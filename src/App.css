@@ -448,8 +448,11 @@ a:hover {
   justify-content: center;
 }
 
-.content-0A {
-  margin-bottom: 100px;
+.content-0A,
+.content-0B,
+.content-0C,
+.content-0D {
+  margin-bottom: 50px;
   width: 90%;
   position: sticky;
   top: 10px;
@@ -460,4 +463,8 @@ a:hover {
   width: 50%;
   position: sticky;
   top: 10px;
+}
+
+.ul-dot {
+  list-style-type: intial !important;
 }
