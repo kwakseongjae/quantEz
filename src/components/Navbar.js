@@ -14,15 +14,15 @@ export const Navbar = () => {
         <div id="header-top-right">
           <ul>
             <li>
-              <span class="login" onclick="">
+              <Link class="login" to="/login">
                 로그인
-              </span>
+              </Link>
               <span>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
             </li>
             <li>
-              <span class="join" onclick="">
+              <Link class="join" to="/login">
                 회원가입
-              </span>
+              </Link>
               <span CL>&nbsp;&nbsp; | &nbsp;&nbsp;</span>
             </li>
             <li>

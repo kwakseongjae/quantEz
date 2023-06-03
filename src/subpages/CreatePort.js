@@ -1,6 +1,9 @@
 import { BackTest } from '../components/BackTest';
 import style from "../components/BackTest.module.css";
 import classNames from "classnames/bind";
+import arrImg from "../img/icn_arr_r.png";
+import undoImg from "../img/icn_undo.png";
+import redoImg from "../img/icn_redo.png";
 const cx = classNames.bind(style);
 
 export const CreatePort = () => {
@@ -706,7 +709,7 @@ export const CreatePort = () => {
                   href="https://genport.newsystock.com/resource/kor_monthly_sample_20220707_v1_8.pdf"
                 >
                   따라만 하면 완성! 샘플포트 만들기
-                  <img src="../img/icn_arr_r.png" />
+                  <img src={arrImg} />
                 </a>
               </div>
             </div>
@@ -1095,14 +1098,14 @@ export const CreatePort = () => {
                         id={style.btnBuyUndo}
                         className={cx("button_refresh")}
                       >
-                        <img src="../img/icn_undo.png" />
+                        <img src={undoImg} />
                       </button>
                       <button
                         type="button"
                         id={style.btnBuyRedo}
                         className={cx("button_refresh")}
                       >
-                        <img src="../img/icn_redo.png" />
+                        <img src={redoImg} />
                       </button>
                     </div>
                     <p className={cx("subtitle_14px")} id={style.BuyCondExpTxt}></p>

@@ -1,5 +1,6 @@
 import "./App.css";
 import { Home } from "./pages/Home";
+import {Login} from "./components/Login";
 import { Aboutus } from "./pages/Aboutus";
 import { Tutorial } from "./pages/Tutorial";
 import { Port } from "./pages/Port";
@@ -34,6 +35,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<Login/>} />
+          <Route path="/Join" element={<Login/>} />
           <Route path="/aboutus" element={<Aboutus />} />
           <Route path="/tutorial" element={<Tutorial />} />
           <Route path="/port" element={<Port />} />
