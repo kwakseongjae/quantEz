@@ -1,0 +1,105 @@
+.port-container {
+  min-height: 580px;
+}
+.port-content {
+  width: 100%;
+}
+.port-enter-wrap {
+  overflow: hidden;
+  padding-bottom: 250px;
+  padding-top: 120px;
+}
+.port-enter-box {
+  width: 930px;
+  margin: 0 auto;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.port-enter-box-in {
+  width: 930px;
+  padding: 60px 20px 0 20px;
+  margin-left: -20px;
+}
+.port-enter-item {
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+}
+.port-enter-item-in {
+  position: relative;
+  width: 97%;
+  height: 390px;
+  border-radius: 8px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(219, 219, 219, 0.5);
+  box-shadow: 0px 0px 18px 0px rgba(219, 219, 219, 0.5);
+}
+.port-enter-item .img-box {
+  position: relative;
+  height: 210px;
+}
+.pei-2 .port-enter-item-in{
+  float: right;
+}
+.pei-1 .img-box {
+  background: url(../img/port_img_01_on.png) no-repeat center center;
+}
+.pei-2 .img-box {
+  background: url(../img/port_img_02_on.png) no-repeat center center;
+}
+.port-enter-item .p-1,
+.port-enter-item .p-2 {
+  text-align: center;
+}
+.port-enter-item .p-1 {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 110%;
+  color: #374054;
+}
+.port-enter-item .p-2 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #444;
+  line-height: 130%;
+  letter-spacing: -0.025em;
+}
+.port-enter-btn-item-wrap {
+  padding: 0 16px 24px 16px;
+}
+.port-enter-btn-item {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 33%;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+.port-enter-btn-item-in {
+  height: 48px;
+  overflow: hidden;
+  font-size: 10px;
+  color: #444;
+  letter-spacing: -0.02em;
+  text-align: center;
+  line-height: 120%;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  transition: all 0.4s;
+}
+.port-enter-btn-item .text-1 {
+  padding-top: 6px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.port-enter-btn-item .text-2 {
+  font-size: 14px;
+  letter-spacing: -0.025em;
+}
+.port-enter-btn-item:hover .port-enter-btn-item-in {
+  color: #fff;
+  background: #5400CF;
+  background-color: #5400CF;
+}
