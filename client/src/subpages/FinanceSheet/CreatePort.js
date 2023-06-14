@@ -1,4 +1,4 @@
-import { BackTest } from '../components/BackTest';
+import { BackTest } from '../../client/src/components/BackTest';
 import style from "../components/BackTest.module.css";
 import classNames from "classnames/bind";
 import arrImg from "../img/icn_arr_r.png";

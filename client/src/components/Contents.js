@@ -1,4 +1,4 @@
-import { AnswerSubmit } from "../components/AnswerSubmit";
+import { AnswerSubmit } from "./AnswerSubmit";
 export const Contents = () => {
   return (
     <div className="contents">
